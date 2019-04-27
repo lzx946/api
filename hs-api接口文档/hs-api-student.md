@@ -39,6 +39,7 @@ studentId|Integer|是|学生ID
             "photoUrl": "http://13.59.102.146/group1/M00/00/0E/eSiCMlrPcUyAXrKWAANTO57Azgc951.jpg",     //教授头像url
             "academic": "教授",             //职称
             "employer": "中国人民大学",           //工作单位
+            "status": "2",      //课程状态（0==未开课；1==已开课；2==已结束；3==已退报）
             "page": null
         }
     ],
