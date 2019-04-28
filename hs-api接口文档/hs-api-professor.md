@@ -73,7 +73,102 @@ teacherId|Integer|是|教授ID
 
 ## 课程跟踪详情***
 
+> * POST
+> * course/courseTrackingDetail
+
+### 参数
+
+名称|类型|是否必填|说明
+:---:|:---:|:---:|:---:
+courseId|Integer|是|课程ID
+
+### 返回值
+
+```json
+{
+    "code": "ACK",
+    "message": "success",
+    "data": {
+        "status": "2",               //审核状态（0==申请课程；1==审核；2==材料上传；3==开课；4==结课）
+        "applyTime": "2019-04-118 10:01:36",    //申请时间
+        "auditSuccessTime": null,       //初步审核成功时间
+        "uploadTime": null,           //上传材料成功时间
+        "courseStartTime": null,        //开课时间（流程显示）
+        "courseStopTime": null,         //结课时间（流程显示）
+        "courseId": 45,           //课程ID
+        "courseName": "创新思维与细节管理",          //课程题目
+        "period": "5",        //第几期
+        "employer": "山东大学",         //工作单位
+        "realName": "刘悦坦",         //教授姓名
+        "academic": "教授",           //职称
+        "totalBegin": "2019-05-135 05:00:00",       //总开课时间
+        "totalEnd": "2019-05-143 05:00:00",         //总结课时间
+        "teachPointList": [     //教学点列表
+            {
+                "courseId": 45,       //课程ID
+                "codeFlag": 1,        //教学点code
+                "codeFlagName": "米兰",       //教学点名称
+                "room": "Viale del Pattinaggio,100,Roma 喜来登酒店",     //具体上课地点
+                "startTime": "2019-05-141 05:00:00",      //该教学点开课时间
+                "stopTime": "2019-05-143 05:00:00",       //该教学点结课时间
+                "state": 1        //课程状态
+            },
+            {
+                "courseId": 46,
+                "codeFlag": 3,
+                "codeFlagName": "普拉托",
+                "room": "Via degli Olmi,7, Calenzano ,Mir 酒店",
+                "startTime": "2019-05-138 05:00:00",
+                "stopTime": "2019-05-140 05:00:00",
+                "state": 1
+            },
+            {
+                "courseId": 47,
+                "codeFlag": 1,
+                "codeFlagName": "米兰",
+                "room": "Piazza della repubblica 20,milano 威斯汀酒店",
+                "startTime": "2019-05-135 05:00:00",
+                "stopTime": "2019-05-137 05:00:00",
+                "state": 1
+            }
+        ],
+        "teacherId": 44,        //教授ID
+        "photoId": 75,        //教授头像ID
+        "photoUrl": "http://13.59.102.146/group1/M00/00/0E/eSiCMlq7McWAeo1eAAHwIkQTzWY874.jpg",     //头像url
+        "summary": "刘悦坦教授讲课轻松幽默、深入浅出，让学员们在轻松的气氛中学习到营销管理学知识和做人经商的道理。",       //课程摘要详情
+        "auditMessage": "您好！您申请的创新思维与细节管理课程有新动态，请前往行程跟踪接受邀请。",      //审核消息
+        "auditor": "admin",       //审核人
+        "auditTime": "2019-04-118 01:03:57",      //审核时间
+        "fileList": [],     //文件材料列表
+        "commentList": []       //评论列表
+    },
+    "page": null,
+    "ext": null
+}
+```
+
 ## 上传文件（课程所需文件）***
+
+> * POST
+> * course/uploadCourseFile
+
+### 参数
+
+名称|类型|是否必填|说明
+:---:|:---:|:---:|:---:
+courseId|Integer|是|课程ID
+
+### 返回值
+
+```json
+{
+    "code": "ACK",          //状态码
+    "message": "success",           //信息提示
+    "data":null,
+    "page": null,
+    "ext": null
+}
+```
 
 ## 申请新课程
 
