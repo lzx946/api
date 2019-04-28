@@ -226,8 +226,8 @@ cid|String|是|课程ID
 
 名称|类型|是否必填|说明
 :---:|:---:|:---:|:---:
-studentId|Integer|是|学生ID
-courseId|Integer|是|课程ID
+studentId|String|是|学生ID
+courseId|String|是|课程ID
 latitude|String|是|经度
 longitude|String|是|纬度
 

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e99f8fe5-7aa6-4d44-9bca-d3b502df968e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/hs-api接口文档/hs-api-student.md" beforeDir="false" afterPath="$PROJECT_DIR$/hs-api接口文档/hs-api-student.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/hs-api接口文档/hs-api-student.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="274">
-                <caret line="179" column="17" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
+              <first_editor relative-caret-position="-357">
+                <caret line="184" column="1" lean-forward="true" selection-start-line="184" selection-start-column="1" selection-end-line="184" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -113,12 +113,12 @@
       <updated>1555849245501</updated>
       <workItem from="1555849251753" duration="4122000" />
       <workItem from="1555951004170" duration="143000" />
-      <workItem from="1555990667452" duration="9414000" />
+      <workItem from="1555990667452" duration="10460000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13679000" />
+    <option name="totallyTimeSpent" value="14725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -173,8 +173,8 @@
     <entry file="file://$PROJECT_DIR$/hs-api接口文档/hs-api-student.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="274">
-            <caret line="179" column="17" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
+          <first_editor relative-caret-position="-357">
+            <caret line="184" column="1" lean-forward="true" selection-start-line="184" selection-start-column="1" selection-end-line="184" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
