@@ -169,8 +169,80 @@ studentId|Integer|是|学生ID
 
 ## 报名
 
+> * POST
+> * enlist/insertEnlist
+
+### 参数
+
+名称|类型|是否必填|说明
+:---:|:---:|:---:|:---:
+userid|String|是|学生ID
+courseid|String|是|课程ID
+
+### 返回值
+
+```json
+{
+    "code": "ACK",
+    "message": "报名成功",
+    "data": null,
+    "page": null,
+    "ext": null
+}
+```
+
+
 ## 退报
 
+> * POST
+> * enlist/backEnlist
+
+### 参数
+
+名称|类型|是否必填|说明
+:---:|:---:|:---:|:---:
+uid|String|是|学生ID
+cid|String|是|课程ID
+
+### 返回值
+
+```json
+{
+    "code": "ACK",
+    "message": "退报成功",
+    "data": null,
+    "page": null,
+    "ext": null
+}
+```
+
+
 ## 签到
+
+> * POST
+> * wechat/signIn
+
+### 参数
+
+名称|类型|是否必填|说明
+:---:|:---:|:---:|:---:
+studentId|Integer|是|学生ID
+courseId|Integer|是|课程ID
+latitude|String|是|经度
+longitude|String|是|纬度
+
+### 返回值
+
+```json
+{
+    "code": "ACK",
+    "message": "签到成功",
+    "data": null,
+    "page": null,
+    "ext": null
+}
+```
+
+
 
 ## 评论
