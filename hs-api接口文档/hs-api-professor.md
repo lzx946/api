@@ -21,9 +21,14 @@ multipartFile|MultipartFile|是|要上传的文件
 
 ```json
 {
-  code: "0080",
-  flag: 0,
-  message: "上传文件失败"
+    code: "0080",
+    flag: 0,
+    message: "上传文件成功",
+    objectList: {
+        id: 92,     //文件ID   
+        url: "http://13.59.102.146/group1/M00/00/01/rB8pIFzHHL-AOMcJAAAbtrJR3Rg608.bmp",    //文件url
+        code: 1
+    }
 }
 ```
 
