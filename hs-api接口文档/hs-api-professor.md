@@ -157,6 +157,7 @@ courseId|Integer|是|课程ID
 名称|类型|是否必填|说明
 :---:|:---:|:---:|:---:
 courseId|Integer|是|课程ID
+fileIdList|List<Integer>|是|文件ID列表，Integer类型的List
 
 ### 返回值
 
@@ -176,9 +177,109 @@ courseId|Integer|是|课程ID
 
 ## 行程跟踪详情***
 
+> * POST
+> * /trip/tripTrackingDetail
+
+### 参数
+
+名称|类型|是否必填|说明
+:---:|:---:|:---:|:---:
+tripId|Integer|是|行程ID
+
+### 返回值
+
+```json
+
+```
+
 ## 教授接受邀请确认***
 
-## 食宿安排申请***
+> * POST
+> * /trip/acceptInvitation
+
+### 参数
+
+名称|类型|是否必填|说明
+:---:|:---:|:---:|:---:
+tripId|Integer|是|行程ID
+agree|String|是|接受邀请（1==同意；2==更改；3==取消开课）
+classList|List<ClassDto>|否|更改的信息
+
+#### 入参json
+
+```json
+{
+	"tripId": 1,
+	"agree": "1",
+	"classList":[
+		{
+			"codeFlag": ,     //教学点code
+			"codeFlagName": ,   //教学点名称
+			"startTime": ,      //开始时间
+			"stopTime":         //结束时间
+		}]
+	
+}
+```
+
+### 返回值
+
+```json
+{
+    "code": "ACK",
+    "message": "无邀请记录",
+    "data": null,
+    "page": null,
+    "ext": null
+}
+```
+
+## 食宿确认***
+
+> * POST
+> * /trip/confirmBoardAndLodging
+
+### 参数
+
+名称|类型|是否必填|说明
+:---:|:---:|:---:|:---:
+tripId|Integer|是|行程ID
+need|String|是|是否需要学院安排食宿（0==不需要；1==需要）
+
+### 返回值
+
+```json
+{
+    "code": "ACK",
+    "message": "请求成功",
+    "data": null,
+    "page": null,
+    "ext": null
+}
+```
 
 ## 上传签证、机票图片***
+
+> * POST
+> * /trip/uploadTripFile
+
+### 参数
+
+名称|类型|是否必填|说明
+:---:|:---:|:---:|:---:
+tripId|Integer|是|行程ID
+visaId|Integer|否|签证文件ID
+planeTicketId|Integer|否|机票文件ID
+
+### 返回值
+
+```json
+{
+    "code": "ACK",
+    "message": "请求成功",
+    "data": null,
+    "page": null,
+    "ext": null
+}
+```
 
