@@ -16,8 +16,8 @@
         <entry file="file://$PROJECT_DIR$/hs-api接口文档/hs-api-professor.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-41">
-                <caret line="261" lean-forward="true" selection-start-line="261" selection-end-line="261" />
+              <first_editor relative-caret-position="240">
+                <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               </first_editor>
               <second_editor />
             </state>
@@ -113,12 +113,12 @@
       <updated>1555849245501</updated>
       <workItem from="1555849251753" duration="4122000" />
       <workItem from="1555951004170" duration="143000" />
-      <workItem from="1555990667452" duration="19354000" />
+      <workItem from="1555990667452" duration="24031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23619000" />
+    <option name="totallyTimeSpent" value="28296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -173,8 +173,8 @@
     <entry file="file://$PROJECT_DIR$/hs-api接口文档/hs-api-professor.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-41">
-            <caret line="261" lean-forward="true" selection-start-line="261" selection-end-line="261" />
+          <first_editor relative-caret-position="240">
+            <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           </first_editor>
           <second_editor />
         </state>
