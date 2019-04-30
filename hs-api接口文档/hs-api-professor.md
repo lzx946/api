@@ -354,6 +354,8 @@ tripId|Integer|是|行程ID
                 "message": "学院已确认您的操作！"   //提示信息
             }
         ],
+        "needBoardAndLodging": "1",     //是否需要食宿（0==未确认；1==需要；2==不需要）
+        "boardAndLodgingMessage": "本次行程需要安排食宿",     //食宿提示消息
         "boardAndLodgingList": [      //食宿确认
             {
                 "id": 1,        //食宿表ID
