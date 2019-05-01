@@ -339,6 +339,8 @@ tripId|Integer|是|行程ID
             "photoUrl": "http://13.59.102.146/group1/M00/00/0E/eSiCMlq7McWAeo1eAAHwIkQTzWY874.jpg",   //头像url
             "summary": "刘悦坦教授讲课轻松幽默、深入浅出，让学员们在轻松的气氛中学习到营销管理学知识和做人经商的道理。"    //课程摘要
         },
+        "invitationAgree": "1",         //目前邀请状态（0==未操作；1==同意；2==更改；3==取消开课）
+        "invitationMessage": "您已接受邀请，学院已确认您的操作！",   //目前邀请提示信息
         "invitationList": [     //邀请表列表
             {
                 "agree": "1",       //是否接受邀请（0==未确认；1==同意；2==更改；3==取消开课）
